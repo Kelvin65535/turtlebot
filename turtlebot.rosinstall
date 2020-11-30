@@ -14,44 +14,44 @@
 - git:
     uri: https://github.com/yujinrobot/kobuki_desktop.git
     local-name: kobuki_desktop
-    version: indigo
+    version: melodic
 
 - git:
     uri: https://github.com/yujinrobot/yocs_msgs.git
     local-name: yocs_msgs
-    version: indigo
+    version: release/0.7-melodic
 
 - git:
     uri: https://github.com/yujinrobot/yujin_ocs.git
     local-name: yujin_ocs
-    version: indigo
+    version: kinetic
 
 - git:
     uri: https://github.com/yujinrobot/kobuki_msgs.git
     local-name: kobuki_msgs
-    version: indigo
+    version: melodic
 
 - git:
     uri: https://github.com/yujinrobot/kobuki_core.git
     local-name: kobuki_core
-    version: indigo
+    version: melodic
 
 - git:
     uri: https://github.com/yujinrobot/kobuki.git
     local-name: kobuki
-    version: indigo
+    version: melodic
 
 # Create stacks
 
-- git:
-    uri: https://github.com/turtlebot/turtlebot_create.git
-    local-name: turtlebot_create
-    version: indigo
+#- git:
+#    uri: https://github.com/turtlebot/turtlebot_create.git
+#    local-name: turtlebot_create
+#    version: indigo
 
-- git:
-    uri: https://github.com/turtlebot/turtlebot_create_desktop.git
-    local-name: turtlebot_create_desktop
-    version: indigo
+#- git:
+#    uri: https://github.com/turtlebot/turtlebot_create_desktop.git
+#    local-name: turtlebot_create_desktop
+#    version: indigo
 
 # Turtlebot stacks
 
@@ -61,14 +61,14 @@
     version: indigo
 
 - git:
-    uri: https://github.com/turtlebot/turtlebot.git
+    uri: https://github.com/kelvin65535/turtlebot.git
     local-name: turtlebot
-    version: indigo
+    version: melodic
 
 - git:
     uri: https://github.com/turtlebot/turtlebot_simulator.git
     local-name: turtlebot_simulator
-    version: indigo
+    version: melodic
 
 - git:
     uri: https://github.com/turtlebot/turtlebot_apps.git
