@@ -34,4 +34,9 @@
 	<xacro:property name="tof_cam_py" value="0.0" />
 	<xacro:property name="tof_cam_pz" value="0.080" />
 
+   <!-- lidar sensor position based on base_link -->
+  <xacro:property name="lidar_px" value="0.0" />
+	<xacro:property name="lidar_py" value="0.0" />
+	<xacro:property name="lidar_pz" value="0.010" />
+
 </robot>
