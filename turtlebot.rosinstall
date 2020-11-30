@@ -63,7 +63,7 @@
 - git:
     uri: https://github.com/kelvin65535/turtlebot.git
     local-name: turtlebot
-    version: melodic
+    version: yejiayong
 
 - git:
     uri: https://github.com/turtlebot/turtlebot_simulator.git
