@@ -32,11 +32,13 @@
   <!-- 3dtof sensor position based on base_link -->
   <xacro:property name="tof_cam_px" value="0.180" />
 	<xacro:property name="tof_cam_py" value="0.0" />
-	<xacro:property name="tof_cam_pz" value="0.080" />
+  <!-- tof离地高度 -->
+	<xacro:property name="tof_cam_pz" value="0.047" />
 
-   <!-- lidar sensor position based on base_link -->
+   <!-- lidar sensor position based on plate_bottom_link -->
   <xacro:property name="lidar_px" value="0.0" />
 	<xacro:property name="lidar_py" value="0.0" />
-	<xacro:property name="lidar_pz" value="0.010" />
+  <!-- lidar距离机器人顶部的高度 -->
+	<xacro:property name="lidar_pz" value="0.041" />
 
 </robot>
