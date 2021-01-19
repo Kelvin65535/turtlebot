@@ -10,10 +10,10 @@
     <joint name="lidar_joint" type="fixed">
       <origin xyz="${lidar_px} ${lidar_py} ${lidar_pz}" rpy="0 0 0"/>
       <parent link="${parent}"/>
-      <child link="lidar_link" />
+      <child link="laser_link" />
     </joint>
 
-    <link name="lidar_link">
+    <link name="laser_link">
       <visual>
         <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
         <geometry>
