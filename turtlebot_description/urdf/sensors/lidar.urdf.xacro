@@ -17,7 +17,7 @@
       <visual>
         <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
         <geometry>
-          <box size="0.01 0.01 0.01"/>
+          <cylinder radius="0.043" length="0.0546" />
         </geometry>
       </visual>
       <inertial>
